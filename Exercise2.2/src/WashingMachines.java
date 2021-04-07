@@ -8,7 +8,7 @@ public class WashingMachines {
 		double installationService, normalPrice;
 		double [] c1, c2, c3, c4;
 		int[]timer;
-		String[] functionAndCapacity;
+		String[] function;
 		int[] rinseSpin;
 
 		
@@ -35,10 +35,10 @@ public class WashingMachines {
 			else 
 				System.out.println("The washing machine is off!");
 		}
-		void function(String [] functionAndCapacity, int rs1, int rs2, int rs3, int rs4) {
+		void function(String [] function, int rs1, int rs2, int rs3, int rs4) {
 			System.out.println("--Functions-- ");
-			for (int i=0; i < functionAndCapacity.length; i++) {
-					System.out.println(functionAndCapacity[i]);
+			for (int i=0; i < function.length; i++) {
+					System.out.println(function[i]);
 			}System.out.println();
 			System.out.println("--Rinse Spin--");
 			System.out.println("Regular: " + rs1 + "minutes");
